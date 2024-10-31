@@ -1,0 +1,62 @@
+Windows Registry Editor Version 5.00
+; fix magnet url and torrent files association in windows
+[HKEY_CURRENT_USER\SOFTWARE]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet]
+@="URL:magnet"
+"Content Type"="application/x-magnet"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\DefaultIcon]
+@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell]
+@="open"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell\open\command]
+@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent]
+"Content Type"="application/x-bittorrent"
+@="Torrent file"
+
+[HKEY_CURRENT_USER\SOFTWARE\ClassesuTorrent.torrent\DefaultIcon]
+@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell]
+@="open"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell]
+@="open"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell\open\command]
+@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+"uTorrent"="Software\\uTorrent\\Capabilities"
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent]
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\Capabilities]
+"ApplicationIcon"="C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe,1"
+"ApplicationName"="uTorrent"
+"ApplicationDescription"="uTorrent downloader"
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\Capabilities\URLAssociations]
+"magnet"="uTorrent.magnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\Capabilities\FileAssociations]
+".torrent"="uTorrent.torrent"
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\shell]
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\uTorrent\shell\open\command]
+@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\""
