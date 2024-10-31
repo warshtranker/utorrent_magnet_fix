@@ -1,6 +1,7 @@
 ![alt text](https://github.com/warshtranker/utorrent_magnet_fix/blob/main/demo.jpg)
 
 Some users may find that they have no way to associate MAGNET urls (magnet://) links and torrent files (.torrent) with uTorrent client. 
+Sometimes users can't select uTorrent in "Choose default apps by protocol" settings.
 This file fixes this situation.
 
 1. Download the .reg file
