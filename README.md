@@ -1,3 +1,5 @@
+**uTorrent MAGNET links and torrent files association fix**
+
 ![alt text](https://github.com/warshtranker/utorrent_magnet_fix/blob/main/demo.jpg)
 
 Some users may find that they have no way to associate MAGNET urls (magnet://) links and torrent files (.torrent) with uTorrent client. 
