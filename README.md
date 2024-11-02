@@ -1,4 +1,4 @@
-**uTorrent MAGNET links and torrent files association fix**
+**uTorrent MAGNET links and torrent files association fix for Windows**
 
 ![alt text](https://github.com/warshtranker/utorrent_magnet_fix/blob/main/demo.jpg)
 
