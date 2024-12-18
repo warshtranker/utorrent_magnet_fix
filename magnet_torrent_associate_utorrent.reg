@@ -10,7 +10,7 @@ Windows Registry Editor Version 5.00
 "URL Protocol"=""
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\DefaultIcon]
-@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",0"
+@="\"C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",0"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell]
 @="open"
@@ -18,14 +18,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell\open]
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.magnet\shell\open\command]
-@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
+@="\"C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent]
 "Content Type"="application/x-bittorrent"
 @="Torrent file"
 
 [HKEY_CURRENT_USER\SOFTWARE\ClassesuTorrent.torrent\DefaultIcon]
-@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",1"
+@="\"C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe\",1"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell]
 @="open"
@@ -36,7 +36,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell\open]
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\uTorrent.torrent\shell\open\command]
-@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
+@="\"C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe\" \"%1\""
 
 [HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
 "uTorrent"="Software\\uTorrent\\Capabilities"
@@ -44,7 +44,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\uTorrent]
 
 [HKEY_CURRENT_USER\SOFTWARE\uTorrent\Capabilities]
-"ApplicationIcon"="C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe,1"
+"ApplicationIcon"="C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe,1"
 "ApplicationName"="uTorrent"
 "ApplicationDescription"="uTorrent downloader"
 
@@ -59,4 +59,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\uTorrent\shell\open]
 
 [HKEY_CURRENT_USER\SOFTWARE\uTorrent\shell\open\command]
-@="\"C:\\Users\\K\\AppData\\Roaming\\uTorrent\\uTorrent.exe\""
+@="\"C:\\Users\\user\\AppData\\Roaming\\uTorrent\\uTorrent.exe\""
