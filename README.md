@@ -9,6 +9,6 @@ This file fixes this situation. Your browser (like Chrome) will open magnets lin
 
 1. Download the .reg file
 2. Open it
-3. Replace the path to your uTorrent.exe, don't forget to use double slashesh "\\\\"
+3. Replace the path to your uTorrent.exe, don't forget to use double slashesh "\\\\" (you should replace it in 6 lines: 13, 21, 28, 39, 47, 62)
 4. Save the file
 5. Merge edited .reg file with your registry
