@@ -10,9 +10,9 @@ This file fixes this situation. Your browser (like Chrome) will open magnets lin
 **NEW METHOD**
 1. Download _magnet_torrent_associate_utorrent.reg_ and _powershell-script.ps1_ to the same folder
 2. Right click on _powershell-script.ps1_ and select "Run with PowerShell"
-3. In file open dialog select you uTorrent.exe file
-4. It will save your path to uTorrent.exe to _magnet_torrent_associate_utorrent.reg_ file
-5. Merge the reg file with your registry
+3. In file open dialog select your uTorrent.exe file
+4. The script will save path to selected uTorrent.exe to _magnet_torrent_associate_utorrent.reg_
+5. Merge the .reg file with your registry
 
 ~~---------------------------------~~
 
