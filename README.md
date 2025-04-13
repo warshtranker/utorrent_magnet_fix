@@ -8,10 +8,10 @@ Sometimes users can't select uTorrent in "Choose default apps by protocol" setti
 This file fixes this situation. Your browser (like Chrome) will open magnets links automatically.
 
 **NEW METHOD**
-1. Download <ins>magnet_torrent_associate_utorrent.reg</ins> and <ins>powershell-script.ps1</ins> to the same folder
-2. Right click on <ins>powershell-script.ps1</ins> and select "Run with PowerShell"
+1. Download `magnet_torrent_associate_utorrent.reg` and `powershell-script.ps1` to the same folder
+2. Right click on `powershell-script.ps1` and select "Run with PowerShell"
 3. In file open dialog select your `uTorrent.exe` file
-4. The script will save path to selected uTorrent.exe to <ins>magnet_torrent_associate_utorrent.reg</ins>
+4. The script will save path to selected uTorrent.exe to `magnet_torrent_associate_utorrent.reg`
 5. Merge the .reg file with your registry
 
 ~~---------------------------------~~
